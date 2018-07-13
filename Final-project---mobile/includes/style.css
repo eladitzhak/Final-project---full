@@ -1,0 +1,324 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Calibri, Arial, Tahoma, Verdana;
+    color: black;
+    direction: rtl;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+body { background-color: #88ba1c; border: black 5px solid;}
+body {margin: 0px auto; max-height: 828px; max-width: 460.8px;}
+
+header,main,nav,aside,article,section,footer,a {
+    display:block;
+}
+
+.wrapper {
+    height: 100%;
+    max-width: 460.8px;
+    width:90%;
+    margin: 0px auto;
+    float: none;
+    position: relative;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*++++++++++++++++++++++++++++++++++++++++ HOME PAGE ++++++++++++++++++++++++++++++++++++++++*/
+
+/*----   header   ----*/
+
+header {
+    height: 86px;
+    max-width: 480px;
+    width:100%;
+    background-color: white;
+    position: relative;
+}
+
+header * {
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    float: right;
+}
+
+.logo
+{
+    height: 65px;
+    width: 170px;
+    background-image: url(../images/logo.png);
+    display:block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.menuIcon {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/menu_icon.png);
+    float: left;
+}
+.userProfile {
+    height: 50px;
+}
+
+.userPic {
+    height: 50px;
+    width: 50px;
+    border: #7a7a7a 1px solid;
+    border-radius: 50px;
+    background-image: url(../images/profilePic2.jpeg);
+
+}
+
+.userPic section:nth-child(1) {
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: -11px;
+    float: none;
+}
+
+/*----   main   ----*/
+
+main {
+    max-height: 742px;
+    min-height: 482px;
+    background-color: #e6e6e6;
+    /*position: relative;*/
+}
+
+.assistingBar {
+    background-color: #2f96b4;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.assistingBar p {
+    font-size: 16px;
+    padding-top: 5px;
+    text-shadow: darkgrey 1px 1px;
+}
+
+#Index h1 {
+    text-align: center;
+    margin-top: 46px;
+    font-size: 22px;
+}
+
+.mainsMenu {
+    height: 245px;
+    width: 276px;
+    margin: 0px auto;
+    margin-top: 44px;
+}
+#Index .mainsMenu { width: 269px; }
+
+.mainsMenu a {
+    width: 88px; /*changed*/
+    height: 82px;
+    text-align: center;
+    margin: 1px 1px 1px 1px; /*added*/
+    float: right;
+}
+
+.mainsMenu section {
+    height: 60px;
+    width: 60px;
+    margin: 0px auto;
+    background-color: white;
+    font-size: 26px;
+}
+
+#Index .mainsMenu section {
+    border-radius: 50%;
+    background-color: #7a7a7a;
+}
+
+.mainsMenu section .fa { padding-top: 17px;}
+#Index .mainsMenu section .fa  { color: white }
+
+.mainsMenu h2 { font-size: 17px;}
+
+#Index .mainsMenu a:nth-child(2) { float: left; }
+#Index .mainsMenu a:nth-child(3) { margin-top: 60px; }
+#Index .mainsMenu a:nth-child(4) { float: left; margin-top: 60px;}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*++++++++++++++++++++++++++++++++++++++++ Sevices ++++++++++++++++++++++++++++++++++++++++*/
+
+#New_Appointment_Sevices .mainsMenu a {
+    border: black 1px solid; /*added*/
+    background-color: white; /*added*/
+}
+
+#New_Appointment_Sevices .mainsMenu section .fa { font-size: 35px;}
+
+#New_Appointment_Sevices h1 {
+    text-align: center;
+    margin-top: 46px;
+    font-size: 22px;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*++++++++++++++++++++++++++++++++++++++++ Shops ++++++++++++++++++++++++++++++++++++++++*/
+
+main h1 {
+    margin-top: 16px;
+    text-align: right;
+    text-shadow: 1px 1px #7a7a7a;
+    font-size: 22px;
+}
+
+#Shops h1 i {
+    margin-right: 5px;
+}
+
+.mainItems {
+    width: 100%;
+    margin-top: 14px;
+    /*background-color: #3399ff;*/
+}
+
+.mainItems a {
+    width: 99%;
+    height: 52px;
+    margin: 1px 1px 1px 1px; /*added*/
+    background-color: white;
+    text-align: right;
+    border: #cccccc 1px solid;
+}
+
+.mainItems :not(a) { padding-right: 5px; }
+
+.mainItems h2 {
+    padding-top: 3px;
+    width: fit-content;
+    display: inline;
+}
+
+.mainItems h4 { font-weight: normal; }
+
+.stars i {
+    margin-left: -4px;
+}
+
+.stars {
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    font-size: 20px;
+}
+
+.stars i {float: left}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*++++++++++++++++++++++++++++++++++++++++ Time ++++++++++++++++++++++++++++++++++++++++*/
+
+#Time h1 p {
+    font-size: 22px;
+    text-shadow: none;
+    display: inline;
+}
+
+#Time button {
+    height: 30px;
+    width: 100%;
+    background-color: #83c9cf;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 7px;
+    margin: 0px auto;
+    margin-top: 6px;
+    text-align: center;
+}
+
+#submitingTime {
+    width: 100%;
+    height: 30px;
+
+}
+
+#floatingApproval {
+    height: 350px;
+    width: 80%;
+    background-color: #ffffff;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    position: absolute;
+    right: 10%;
+    /*display: none;*/
+}
+
+#floatingApproval h2 {
+    text-align: center;
+    margin-top: 21px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#floatingApproval article {
+    height: 240px;
+    width: 80%;
+    margin-right: 10%;
+    /*background-color: #3399ff;*/
+}
+
+#floatingApproval article p {
+    padding-top: 35px;
+    font-size: 18px;
+}
+
+#floatingApproval article b {
+    font-size: 18px;
+}
+
+#floatingApproval a {
+    width: 42%;
+    float: right;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 3px;
+}
+
+#floatingApproval a button {
+    background-color: red;
+    color: white;
+}
+
+#floatingApproval a:last-child button {
+    background-color: green;
+}
+
+#floatingApproval a i {
+    padding-left: 8px;
+    color: white;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*++++++++++++++++++++++++++++++++++++++++ Shops ++++++++++++++++++++++++++++++++++++++++*/
+
+
