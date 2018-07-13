@@ -198,15 +198,14 @@ main h1 {
 }
 
 .mainItems a {
-    width: 99%;
     height: 52px;
-    margin: 1px 1px 1px 1px; /*added*/
+    margin-bottom: 1px;
     background-color: white;
     text-align: right;
     border: #cccccc 1px solid;
 }
 
-.mainItems :not(a) { padding-right: 5px; }
+.ShopDetails :not(a) { padding-right: 5px; }
 
 .mainItems h2 {
     padding-top: 3px;
@@ -253,10 +252,16 @@ main h1 {
     text-align: center;
 }
 
-#submitingTime {
-    width: 100%;
-    height: 30px;
+#Time .mainItems section:nth-child(2) {
+    height: 170px;
+    border: black 1px solid;
+    text-align: center;
+}
 
+#Time .mainItems section:nth-child(3) {
+    height: 120px;
+    border: black 1px solid;
+    text-align: center;
 }
 
 #floatingApproval {
@@ -267,7 +272,7 @@ main h1 {
     border-radius: 5px;
     position: absolute;
     right: 10%;
-    /*display: none;*/
+    display: none;
 }
 
 #floatingApproval h2 {
@@ -281,7 +286,6 @@ main h1 {
     height: 240px;
     width: 80%;
     margin-right: 10%;
-    /*background-color: #3399ff;*/
 }
 
 #floatingApproval article p {
@@ -319,6 +323,66 @@ main h1 {
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
-/*++++++++++++++++++++++++++++++++++++++++ Shops ++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++ Approval ++++++++++++++++++++++++++++++++++++++++*/
 
+#AppointmentConfirmation .wrapper section:nth-child(1) {
+    width: 70%;
+    height: 350px;
+    margin-right: 15%;
+    margin-top: 42px;
+}
 
+#AppointmentConfirmation h1 {
+    text-align: center;
+}
+
+#AppointmentConfirmation h1 i {
+    color: green;
+    margin-left: 10px;
+}
+
+#AppointmentConfirmation article {
+    margin-top: 21px;
+}
+
+#AppointmentConfirmation article p {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+#AppointmentConfirmation article b {
+    font-size: 18px;
+}
+
+#additionalFeatures {
+    margin-top: 37px;
+}
+#additionalFeatures a {
+    margin-right: 15%;
+    height: 38px;
+    width: 38px;
+    float: right;
+}
+#additionalFeatures a:nth-child(3){ background-image: url(../images/waze.png); }
+#additionalFeatures a:nth-child(4){ background-image: url(../images/moovit.png); }
+#additionalFeatures a:nth-child(5) i { font-size: 38px; }
+
+#successAppointmentNavigate {
+    width: 100%;
+    height: 25px;
+    margin-top: 84px;
+}
+
+#successAppointmentNavigate a {
+    width: 40%;
+    height: 25px;
+    margin-right: 4%;
+    margin-left: 4%;
+    padding-top: 5px;
+    float: right;
+    text-align: center;
+    border: #cccccc 2px solid;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 4px;
+}

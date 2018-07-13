@@ -2,31 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ReserveIT - אישור פרטי התור</title>
+    <title>ReserveIT - אישור הזמנת התור</title>
     <link rel="stylesheet" href="includes/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body id="AppointmentConfirmation">
-<header>
-    <div class="wrapper">
-        <a href="#" class="userProfile">
-            <section class="userPic"></section>
-        </a>
-        <a href="#" class="menuIcon" id="menuIcon"></a>
-        <a class="logo" href="index.html"></a>
-    </div>
-</header>
-<main>
-    <section class="assistingBar">
-        <p>קביעת תור חדש</p>
-    </section>
-    <div class="wrapper">
-        <h1>אישור פרטי התור</h1>
-        <section>
-
+<body>
+    <header>
+        <div class="wrapper">
+            <a href="#" class="userProfile">
+                <section class="userPic"></section>
+            </a>
+            <a href="#" class="menuIcon" id="menuIcon"></a>
+            <a class="logo" href="index.html"></a>
+        </div>
+    </header>
+    <main id="AppointmentConfirmation">
+        <section class="assistingBar">
+            <p>אישור קביעת תור חדש</p>
         </section>
-    </div>
-</main>
-<script src="includes/scripts.js"></script>
+        <div class="wrapper">
+            <section>
+                <h1><i class="fa fa-check-circle" aria-hidden="true"></i>התור נקבע בהצלחה!</h1>
+                <article>
+                    <p><b>מקום: </b>פלייס מאדאפאקא</p>
+                    <p><b>תאריך: </b>דייט ביץ'</p>
+                    <p><b>שעה: </b>טיים יו סטופד פאק</p>
+                </article>
+                <section id="additionalFeatures">
+                    <p>התראות וניווטים:</p><br>
+                    <a href="#" id="Waze"></a>
+                    <a href="#" id="Moovit"></a>
+                    <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                </section>
+                <section id="successAppointmentNavigate">
+                    <a href="index.html">חזרה לעמוד ראשי</a>
+                    <a href="#">ליומן שלי</a>
+                </section>
+            </section>
+        </div>
+    </main>
+    <script src="includes/scripts.js"></script>
 </body>
 </html>
