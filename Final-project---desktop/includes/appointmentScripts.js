@@ -1,37 +1,30 @@
-/*++++++++++++++++++++++++++++++++++++++ Appointment ++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++ Appointment changes ++++++++++++++++++++++++++++++++++++++*/
 
-var fromApp = document.getElementById("formEditAppointment");
-var SA = document.getElementById("selectAppointment");
-var ES = document.getElementById("EditSuccessfully");
-var isHamburgerOpen=1;
+var SaveChange = document.getElementsByClassName("savingChange")[0];
+var SelectApp = document.getElementsByClassName("selectAppointment")[0];
+var ChangeSuccess = document.getElementsByClassName("changedSuccessfully")[0];
 
 function changeToEditPage() {
-    SA.style.display = "none";
-    fromApp.style.display = "block";
+    SelectApp.style.display = "none";
+    SaveChange.style.display = "block";
 }
 
 function saveEditionChanges() {
-    fromApp.style.display = "none";
-    ES.style.display = "block";
+    SaveChange.style.display = "none";
+    ChangeSuccess.style.display = "block";
 }
 
-function hamburger(){
-    var mainObject=document.getElementById("appMain");
-    var navObject=document.getElementById("appNav");
-    console.log(mainObject.style.position);
-    console.log(mainObject.style.width);
+var CATE = document.getElementsByClassName("chooseAppointmentToEdit")[0];
+CATE.onclick = function() {
+    changeToEditPage();
+};
 
-    if (isHamburgerOpen==1)
-    {
-        navObject.style.width="0%";
-        mainObject.style.width="100%";
-        isHamburgerOpen=0;
-    }else {
-        navObject.style.width="20%";
-        mainObject.style.width="80%";
-        isHamburgerOpen=1;
-    }
-}
+var SEC = document.getElementsByClassName("saveEditChanges")[0];
+SEC.onclick =  function() {
+    saveEditionChanges();
+};
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 $(function() {
     $('[data-toggle="datepicker"]').datepicker({
@@ -41,12 +34,5 @@ $(function() {
 });
 
 
-document.getElementById("chooseAppointmentToEdit").onclick = function () {
-    changeToEditPage();
-};
-
-document.getElementById("saveEditChanges").onclick = function () {
-    saveEditionChanges();
-};
 
 

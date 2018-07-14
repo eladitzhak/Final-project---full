@@ -8,29 +8,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="includes/dist/datepicker.css">
 </head>
-<body id="calendarPage">
-<header>
+<body>
+    <header>
+        <div class="wrapper">
+            <a class="logo" href="index.html"></a>
+            <a href="#" class="menuIcon"></a>
+            <a href="#" class="userProfile"><section class="userPic"></section><b>דן נודלמן</b></a>
+            <a href="#" class="settingsIcon" title="הגדרות"></a>
+            <input type="search" value="חיפוש בית עסק.." title="חיפוש לפי: שם עסק/שם בעל העסק/מיקום העסק">
+        </div>
+    </header>
     <div class="wrapper">
-        <a class="logo" href="index.html"></a>
-        <a href="#" class="menuIcon" id="menuIcon" onclick="hamburger()"></a>
-        <a href="#" class="userProfile"><section class="userPic"></section><b>דן נודלמן</b></a>
-        <a href="#" class="settingsIcon" title="הגדרות"></a>
-        <input type="search" value="חיפוש בית עסק.." title="חיפוש לפי: שם עסק/שם בעל העסק/מיקום העסק">
-    </div>
-</header>
-<div class="wrapper">
-    <nav id="appNav">
-        <ul>
-            <li><a href="index.html">יומן</a></li>
-            <li><a href="#">תור חדש</a></li>
-            <li class="selected"><a href="#">עדכון תור קיים</a></li>
-            <li><a href="#">כל בתי העסק</a></li>
-            <li><a href="#">הגדרות</a></li>
-        </ul>
-    </nav>
-    <main id="editAppMain">
-         <div class="googleCalendar">
-            <form id="formEditAppointment" autocomplete="off">
+        <nav class="indexNav">
+            <ul>
+                <li><a href="index.html">יומן</a></li>
+                <li><a href="#">תור חדש</a></li>
+                <li class="selected"><a href="deleteOrEdit.html">עדכון תור קיים</a></li>
+                <li><a href="#">כל בתי העסק</a></li>
+                <li><a href="#">הגדרות</a></li>
+            </ul>
+        </nav>
+        <main id="editAppMain">
+            <h1>עריכת תור</h1>
+            <article class="selectAppointment">
+                <h3>בחר את התור שברצונך לשנות:</h3>
+                <select>
+                    <option></option>
+                    <option>טיפת חלב | 07/06/18</option>
+                    <option>פגישה עם מנהלת "גן טובה" |  06/06/18</option>
+                </select>
+                <a href="#" class="chooseAppointmentToEdit">בחר</a>
+            </article>
+            <form class="savingChange" autocomplete="off">
                 <p><label>
                     <h4>שם נותן השירות</h4>
                     <input type="text" required name="fullName" autofocus="autofocus" tabindex="1" id="full_name" value="טיפת חלב">
@@ -54,33 +63,23 @@
                     <h4>הערה</h4>
                     <textarea name="comments" placeholder="הוסף הערה" rows="2" cols="30" id="appointmentTextArea" ></textarea>
                 </label></p>
-                <label><input type="button" value="שמור" id="saveEditChanges"></label>
+                <label><input type="button" value="שמור" class="saveEditChanges"></label>
             </form>
-        </div>
-        <h1>עריכת תור</h1>
-        <article id="selectAppointment">
-                <h3>בחר את התור שברצונך לשנות:</h3>
-                <select>
-                    <option></option>
-                    <option>טיפת חלב | 07/06/18</option>
-                    <option>פגישה עם מנהלת "גן טובה" |  06/06/18</option>
-                </select>
-                <a href="#" id="chooseAppointmentToEdit">בחר</a>
-        </article>
-        <article id="EditSuccessfully">
-                <h3>עריכת התור בוצעה בהצלחה</h3>
-                <a href="index.html">חזרה לתפריט הראשי</a>
-        </article>
-    </main>
-</div>
-<footer>
-    <div class="wrapper">
-        <section>כל הזכויות שמורות&nbsp;&copy&nbsp;ReserveIT</section>
-        <section><a href="#">תנאי שימוש</a><a>|</a><a href="#">מדיניות הפרטיות</a></section>
+            <article class="changedSuccessfully">
+                    <h3>עריכת התור בוצעה בהצלחה</h3>
+                    <a href="index.html">חזרה לתפריט הראשי</a>
+            </article>
+        </main>
     </div>
-</footer>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="includes/dist/datepicker.js"></script>
-<script src="includes/appointmentScripts.js"></script>
+    <footer>
+        <div class="wrapper">
+            <section>כל הזכויות שמורות&nbsp;&copy&nbsp;ReserveIT</section>
+            <section><a href="#">תנאי שימוש</a><a>|</a><a href="#">מדיניות הפרטיות</a></section>
+        </div>
+    </footer>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="includes/dist/datepicker.js"></script>
+    <script src="includes/appointmentScripts.js"></script>
+    <script src="includes/scripts.js"></script>
 </body>
 </html>

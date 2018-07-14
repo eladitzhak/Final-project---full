@@ -15,8 +15,8 @@ function showpass(){
 var isHamburgerOpen=1;
 
 function hamburger(){
-    var mainObject=document.getElementById("indexMain");
-    var navObject=document.getElementById("indexNav");
+    var mainObject=document.getElementsByTagName("main")[0];
+    var navObject=document.getElementsByClassName("indexNav")[0];
     console.log(mainObject.style.position);
     console.log(mainObject.style.width);
 
@@ -31,6 +31,9 @@ function hamburger(){
         isHamburgerOpen=1;
     }
 }
+
+var MenuIcon = document.getElementsByClassName("menuIcon")[0];
+MenuIcon.onclick = hamburger;
 
 /*++++++++++++++++++++++++++++++++++++++ Notifications pop-up ++++++++++++++++++++++++++++++++++++++*/
 
