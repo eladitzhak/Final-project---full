@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>פרטי פגישה</title>
+    <title>ReserveIT - עריכת תור קיים</title>
     <link rel="stylesheet" href="includes/style.css">
     <link href="https://fonts.googleapis.com/css?family=Arimo|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="includes/dist/datepicker.css">
 </head>
-<body id="calendarWithOpenMenu">
+<body id="calendarPage">
 <header>
     <div class="wrapper">
         <a class="logo" href="index.html"></a>
@@ -23,14 +23,14 @@
         <ul>
             <li><a href="index.html">יומן</a></li>
             <li><a href="#">תור חדש</a></li>
-            <li class="selected"><a href="#">ערוך תור</a></li>
+            <li class="selected"><a href="#">עדכון תור קיים</a></li>
             <li><a href="#">כל בתי העסק</a></li>
             <li><a href="#">הגדרות</a></li>
         </ul>
     </nav>
-    <main id="appMain">
+    <main id="editAppMain">
          <div class="googleCalendar">
-            <form id="formAppointment" autocomplete="off">
+            <form id="formEditAppointment" autocomplete="off">
                 <p><label>
                     <h4>שם נותן השירות</h4>
                     <input type="text" required name="fullName" autofocus="autofocus" tabindex="1" id="full_name" value="טיפת חלב">
@@ -57,7 +57,7 @@
                 <label><input type="button" value="שמור" id="saveEditChanges"></label>
             </form>
         </div>
-        <section class="mainHeader">עריכת תור</section>
+        <h1>עריכת תור</h1>
         <article id="selectAppointment">
                 <h3>בחר את התור שברצונך לשנות:</h3>
                 <select>

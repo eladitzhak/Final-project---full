@@ -1,6 +1,6 @@
 /*++++++++++++++++++++++++++++++++++++++ Appointment ++++++++++++++++++++++++++++++++++++++*/
 
-var fromApp = document.getElementById("formAppointment");
+var fromApp = document.getElementById("formEditAppointment");
 var SA = document.getElementById("selectAppointment");
 var ES = document.getElementById("EditSuccessfully");
 var isHamburgerOpen=1;
