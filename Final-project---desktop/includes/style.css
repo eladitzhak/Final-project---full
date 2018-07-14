@@ -12,14 +12,11 @@ header,main,nav,aside,article,section,footer,a {
         margin: 0px auto;
     }
 
-    .settingsIcon {
-        right: 140px;
-    }
+    .settingsIcon { right: 140px; }
 
-    header input {
-        right: 155px;
-    }
+    header input { right: 155px; }
 }
+
 @media (max-width: 999px) {
     .wrapper {
         height: 1000px;
@@ -27,13 +24,9 @@ header,main,nav,aside,article,section,footer,a {
         margin: 0px auto;
     }
 
-    .settingsIcon {
-        right: 60px;
-    }
+    .settingsIcon { right: 60px; }
 
-    header input {
-        right: 85px;
-    }
+    header input { right: 85px; }
 }
 
 a { text-decoration: none;}
@@ -294,40 +287,45 @@ footer a:nth-child(2)
 
 /*++++++++++++++++++++++++++++++++ REGISTRATION ++++++++++++++++++++++++++++++++*/
 
+
+#registration .logo {
+    margin-left: 45px;
+}
+
 #box {
-    width:500px;
-    height: 562px;
+    width:562px;
+    height: 532px;
     margin: 0px auto;
     margin-top: 21px;
-    margin-bottom: 50px;
-    background-color: #8ba4dc;
+    background-color: #c0c0c0;
     opacity: 0.95;
     border-radius: 35px;
-    box-shadow: 11px 11px 10px darkslategray;
-    border: grey 1px solid;
+    box-shadow: 5px 5px 5px darkslategray;
+    border: lightgray 1px solid;
 }
+
 #box form {
     direction: rtl;
     position: relative;
+    margin-top: 10px;
 }
 
-#box .mustFill {
-    color:red;
-}
+#box .mustFill { color:red; }
 
-#box form p:nth-child(1) {
-    text-shadow: grey 1px 1px 1px;
-}
+#box form p:nth-child(1) { text-shadow: grey 1px 1px 1px; }
 
 #box .boxContainer {
-    margin-right: 35px;
+    margin-right: 5%;
+    width: 90%;
 }
 
-#box .logo2 {
-    margin-top: 20px;
-}
 #box h1 {
-    padding-top: 20px;
+    width: 70%;
+    margin-right: 15%;
+    height: 38px;
+    padding: 1px;
+    border-radius: 5px;
+    font-size: 1.7em;
     text-align: center;
     font-family: Cambria, David, Tahoma, Arial;
     text-shadow: #7a7a7a 2px 2px 2px;
@@ -339,33 +337,34 @@ footer a:nth-child(2)
 }
 
 #box form p:nth-last-child(2){
-
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 12px;
 }
+
 #box input {
-    width: 422px;
-    height: 27px;
-    font-size: 15px;
+    width: 492px;
+    height: 17px;
+    font-size: 14px;
 }
+
 #box input:focus { background-color: bisque;}
+
+#box a {
+    width: 60%;
+    margin-right: 20%;
+}
 
 #box #submitBox {
     margin-top: 15px;
     height: 30px;
-    width: 60px;
-    font-size: 15px;
-    position: absolute;
+    width: 100%;
+    font-size: 16px;
     border-color: black;
     font-weight: bolder;
-    right: 185px;
-    margin-bottom: 17px;
     border-radius: 3px;
 }
 
-#box #submitBox:hover {
-    background-color: white;
-}
+#box #submitBox:hover { background-color: white; }
 
 #box .specialLabel input {
     width: 15px;
@@ -387,6 +386,7 @@ footer a:nth-child(2)
 /*////////////////////////////////////////////////////////////////////////////////////*/
 
 /*+++++++++++++++++++++++++++++++ CALENDAR +++++++++++++++++++++++++++++*/
+
 .googleCalendar{
     top: 122px;
     right: 24px;
@@ -540,3 +540,5 @@ footer a:nth-child(2)
 #deleteAppMain .savingChange a:nth-last-child(2) {
     background-color: #dc0000;
 }
+
+/*+++++++++++++++++++++++++++++++ DELETE APPOINTMENT - END +++++++++++++++++++++++++++++*/
