@@ -4,11 +4,16 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 var timeSel = document.getElementById("timeSelect");
 var confirmAppointmentDetails = document.getElementById("floatingApproval");
+var NotGood = document.getElementById("notGood");
 
 timeSel.onclick = function () {
-    console.log(123);
     confirmAppointmentDetails.style.display = "block";
 };
+
+NotGood.onclick = function () {
+    confirmAppointmentDetails.style.display = "none";
+};
+
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

@@ -279,22 +279,25 @@ main h1 {
 .ShopDetails :not(a) { padding-right: 5px; }
 
 .mainItems h2 {
-    padding-top: 3px;
+    margin-top: 1px;
     width: fit-content;
-    display: inline;
+    font-size: 16px;
 }
 
-.mainItems h4 { font-weight: normal; }
+.mainItems h4 {
+    margin-top: 1px;
+    font-weight: normal;
+}
 
 .stars {
     margin-left: 15px;
-    margin-top: 15px;
     float: left;
     font-size: 20px;
 }
 
 .stars i {
     margin-left: -4px;
+    margin-top: -4px;
     float: left;
 }
 
@@ -359,12 +362,13 @@ main h1 {
 }
 
 #floatingApproval article p {
-    padding-top: 35px;
     font-size: 18px;
 }
 
 #floatingApproval article b {
-    font-size: 18px;
+    font-size: 16px;
+    padding-top: 13px;
+    display: block;
 }
 
 #floatingApproval a {
@@ -389,6 +393,15 @@ main h1 {
     color: white;
 }
 
+#floatingApproval img {
+    height: 98px;
+    width:130px;
+    position: absolute;
+    right: 180px;
+    top: 180px;
+    background-color: black;
+    border-radius: 5px;
+}
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
