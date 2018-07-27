@@ -837,3 +837,6 @@ Date.prototype.setFullYear = function(y) {
     this.setDate(28);
   this.__msh_oldSetFullYear(y);
 }
+
+var x = document.getElementsByClassName("fc-toolbar")[0];
+x.setAttribute("style","height:40px");

@@ -40,6 +40,9 @@ $(document).ready(function () {
             "<h4>" + shopAddress  + "</h4>\n" +
             "<h3>" + shopDistance + "</h3>" +
             "</a>");
+
     })
+
 });
+
 

@@ -12,4 +12,11 @@ function HamburgerOpenClose() {
 var HamburgerIcon = document.getElementsByClassName("menuIcon")[0];
 HamburgerIcon.onclick = HamburgerOpenClose;
 
+var assist = document.getElementsByTagName("body")[0];
+assist.onclick = function () {
+  var ham = document.getElementsByClassName("fc-row fc-week fc-widget-content fc-rigid");
+    for (var i=6;i>0;i--)
+        ham[i-1].setAttribute("style","height:45px");
+}
+
 

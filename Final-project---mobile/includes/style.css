@@ -10,11 +10,13 @@
 
 
 body {
-    background-color: #88ba1c;
-    border: black 5px solid;
+    background-color: black;
+    border: black 1px solid;
     position: relative;
     margin: 0px auto;
+    height: 585px;
     max-height: 828px;
+    min-height: 585px;
     max-width: 460.8px;
 }
 
@@ -30,7 +32,7 @@ header,main,nav,aside,article,section,footer,a {
     float: none;
     position: relative;
 }
-
+main { height: 499px;}
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/

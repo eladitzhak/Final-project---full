@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>ReserveIT - הזמנת התור</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
@@ -15,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
-    <link href="includes/css/style.css" rel="stylesheet">
+    <link href="includes/style.css" rel="stylesheet">
     <!-- FullCalendar -->
     <link href='includes/css/fullcalendar.css' rel='stylesheet' />
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -135,23 +136,21 @@
                 </section>
 <!--            mainitemsclose-->
             </section>
-            <button type="button" id="timeSelect">בחר</button>
 <!--wrapper close-->
         </div>
-        <!--                CALENDAR!!!!!!-->
+        <!--CALENDAR!!!!!!-->
     </main>
-
-<script src="includes/js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="includes/js/bootstrap.min.js"></script>
-<!-- FullCalendar -->
-<script src='includes/js/moment.min.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
-<script src='includes/js/fullcalendar.min.js'></script>
-<!-- JS -->
-<script src="includes/calendarScript.js"></script>
-<script src="includes/getShopDetails.js"></script>
-<script src="includes/scripts.js"></script>
+    <script src="includes/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="includes/js/bootstrap.min.js"></script>
+    <!-- FullCalendar -->
+    <script src='includes/js/moment.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+    <script src='includes/js/fullcalendar.min.js'></script>
+    <!-- JS -->
+    <script src="includes/calendarScript.js"></script>
+    <script src="includes/getShopDetails.js"></script>
+    <script src="includes/scripts.js"></script>
 </body>
 </html>
