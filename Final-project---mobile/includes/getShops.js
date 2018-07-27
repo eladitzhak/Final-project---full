@@ -12,7 +12,7 @@ $(document).ready(function(){
                 t+="<i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>";
                 i++;
             }
-            $('.mainItems').append("<a href=\"New_Appointment_Time.html?shopID=" + this.id +
+            $('.mainItems').append("<a href=\"New_Appointment_Time.php?shopID=" + this.id +
                 "\" class=\"ShopDetails\">" +
                 "<h2>" + this.name + "</h2></i>\n" +
                 "<article class=\"stars\">" +

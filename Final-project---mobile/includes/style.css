@@ -8,6 +8,7 @@
     text-decoration: none;
 }
 
+
 body {
     background-color: #88ba1c;
     border: black 5px solid;
@@ -313,21 +314,21 @@ main h1 {
     display: inline;
 }
 
-#Time button {
-    height: 30px;
-    width: 100%;
-    background-color: #83c9cf;
-    font-weight: bolder;
-    font-size: 15px;
-    border-radius: 7px;
-    margin: 0px auto;
-    margin-top: 6px;
-    text-align: center;
-}
+/*#Time button {*/
+    /*height: 30px;*/
+    /*width: 100%;*/
+    /*background-color: #83c9cf;*/
+    /*font-weight: bolder;*/
+    /*font-size: 15px;*/
+    /*border-radius: 7px;*/
+    /*margin: 0px auto;*/
+    /*margin-top: 6px;*/
+    /*text-align: center;*/
+/*}*/
 
 #Time .mainItems section:nth-child(2) {
     height: 170px;
-    border: black 1px solid;
+    /*border: black 1px solid;*/
     text-align: center;
 }
 
@@ -469,3 +470,26 @@ main h1 {
     background-color: white;
     border-radius: 4px;
 }
+
+
+/*+++++++++++++++++++++++++++++new_appoitment_time CALENDAR+++++++++++++++++++++++++++*/
+
+/*#calendar {*/
+    /*max-height: 200px;*/
+    /*max-width: 400px;*/
+
+/*}*/
+/*.col-centered{*/
+    /*float: none;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+
+button.fc-today-button fc-button fc-state-default fc-corner-left fc-corner-right{
+
+    width: 100px;
+    height: 100px;
+
+}
+
+/*+++++++++++++++++++++++++++++new_appoitment_time CALENDAR+++++++++++++++++++++++++++*/

@@ -92,7 +92,7 @@ $query = "SELECT * FROM tbl_211";
                 <?php
                 if (!empty ($_POST["select1"]))
                 {
-                    
+
                     $select1=$_POST["select1"];
                     echo  $select1;
                     echo "ok!!!!!!";
