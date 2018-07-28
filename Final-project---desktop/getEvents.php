@@ -6,7 +6,7 @@ include "includes/server/config.php";
 
 
 //session_start();
-    $query = "SELECT * FROM tbl_users_211 WHERE 1"
+    $query = "SELECT * FROM tbl_users_211 WHERE 1";
 
     $result = mysqli_query($connection, $query);
     $row = mysqli_fetch_array($result);

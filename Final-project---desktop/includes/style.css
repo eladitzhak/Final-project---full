@@ -191,6 +191,7 @@ nav a {
     background-color: darkgrey;
     width: 20%;
     font-weight: bolder;
+     font-size: 20px;
 }
 
 
@@ -232,6 +233,18 @@ nav a {
 }
 
 h1 {
+    height: 35px;
+    width: 100%;
+    margin-top: 45px;
+    padding-right: 30px;
+    padding-top: 5px;
+    background-color: white;
+    opacity: 0.8;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+#calendarset  {
     height: 35px;
     width: 100%;
     margin-top: 45px;
@@ -510,7 +523,7 @@ footer a:nth-child(2)
 /*+++++++++++++++++++++++++++++++ DELETE APPOINTMENT ++++++++++++++++++++++++++++++++*/
 
 #deleteAppMain .savingChange {
-    display: none;
+    display: block;
     width: 100%;
     position: relative;
     right: 30px;
@@ -537,8 +550,78 @@ footer a:nth-child(2)
     background-color: #07c314;
     color: white;
 }
-#deleteAppMain .savingChange a:nth-last-child(2) {
+#deleteAppMain .savingChange a:nth-last-child(1) {
     background-color: #dc0000;
 }
 
 /*+++++++++++++++++++++++++++++++ DELETE APPOINTMENT - END +++++++++++++++++++++++++++++*/
+
+#submitDel {
+
+    width: 25%;
+    height: 38px;
+    margin-top: 47px;
+    margin-right: 8%;
+    text-align: center;
+    /*padding-top: 8px;*/
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #07c314;
+    color: white;
+    text-decoration: none;
+    font-family: Calibri, Arial, Tahoma, Verdana;
+    direction: rtl;
+    font-size: 19px;
+    border: 0;
+
+    box-shadow: none;
+
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++Approve DELETE page++++++++++++++++++++++++++++*/
+
+#eventID {
+
+    background-color: transparent;
+    border: 0px solid;
+}
+
+#submit{
+
+    width: 25%;
+    height: 38px;
+    margin-top: 47px;
+    margin-right: 8%;
+    text-align: center;
+    /*padding-top: 8px;*/
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #07c314;
+    color: white;
+    text-decoration: none;
+    font-family: Calibri, Arial, Tahoma, Verdana;
+    direction: rtl;
+    font-size: 19px;
+    border: 0;
+    float: right;
+
+    box-shadow: none;
+
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++Approve edit page++++++++++++++++++++++++++++*/
+
+#IframeEdit{
+
+    background-color: transparent;
+    font-weight: bold;
+    border: 0px solid;
+    height: 70px;
+    width: 70%;
+    display: block;
+
+
+}

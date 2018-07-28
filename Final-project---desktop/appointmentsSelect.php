@@ -44,7 +44,9 @@ while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
 
 // sending the encoded result to success page
 // Output json for our calendar
-json_encode($events);
+$json=json_encode($events);
+
+return $json;
 exit();
 //echo json_encode($resultat->fetchAll(PDO::FETCH_ASSOC));
 

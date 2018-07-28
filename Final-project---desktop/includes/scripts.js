@@ -48,11 +48,11 @@ function show_or_hide_notifications() {
         }
 };
 
-document.getElementById("numOfNotifications").onclick = function () {
-    show_or_hide_notifications();
-};
+// document.getElementById("numOfNotifications").onclick = function () {
+//     show_or_hide_notifications();
+// };
 
-document.getElementById("menuIcon").onclick = function () {
-   hamburger();
-};
+// document.getElementById("menuIcon").onclick = function () {
+//    hamburger();
+// };
 

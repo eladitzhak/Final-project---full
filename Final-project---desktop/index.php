@@ -60,7 +60,7 @@
             <section class="floatingActiveUser">דן נודלמן</section>
             <section class="floatingActiveUser"><a href="register.html">הוספת חשבון +</a></section>
         </article>
-        <h1>יומן</h1>
+        <h1 id="calendarset">יומן</h1>
 
         <!--++++++++++++++++++++++CALENDAR implementation++++++++++++++++++++++++++++-->
         <div id="allcal">
@@ -73,7 +73,7 @@
             <div class="modal fade" id="ModalAdd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
-                        <form class="form-horizontal" method="POST" action="addEvent.php">
+<!--                        <form class="form-horizontal" method="POST" action="addEvent.php">-->
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 <button type="submit" class="btn btn-primary">Save changes</button>
@@ -123,6 +123,7 @@
             <input type="hidden" name="id" class="form-control" id="id">
             <!--all cal close tag-->
         </div>
+        <!--++++++++++++++++++++++CALENDAR implementation END++++++++++++++++++++++++++++-->
     </main>
 </div>
 <footer>

@@ -1,14 +1,21 @@
+
 <?php
-/**
- * Created by PhpStorm.
- * User: eitzhak
- * Date: 25-Jul-18
- * Time: 23:17
- */
-//require_once ("appointmentsSelect.php")
+//require_once 'includes/server/db.php';
+include 'json.php';
+
+//include "session1.php";
 
 
+
+//session_start();
+$query = "SELECT * FROM tbl_211";
+    $result = mysqli_query($connection, $query);
+    if (!$result){
+        die("db Query failed.");
+    }
 ?>
+
+
 
 
 <!DOCTYPE html>
@@ -45,12 +52,29 @@
             <h1>עריכת תור</h1>
             <article class="selectAppointment">
                 <h3>בחר את התור שברצונך לשנות:</h3>
-                <select>
+                <form action="" id="editAppoint" method="POST">
+                <select name="selectToEdit" id="selectToEdit">
                     <option></option>
                     <option>טיפת חלב | 07/06/18</option>
                     <option>פגישה עם מנהלת "גן טובה" |  06/06/18</option>
                 </select>
-                <a href="#" class="chooseAppointmentToEdit">בחר</a>
+<!--                <a href="#" class="chooseAppointmentToEdit">בחר</a>-->
+                    <input type="submit" class="chooseAppointmentToEdit" action="#" id="submitDel"  name="delButton"/>
+                </form  >
+                <?php
+                if (!empty ($_POST["selectToEdit"]))
+                {
+                    session_start();
+                    $select1=$_POST["selectToEdit"];
+                    echo  $select1;
+                    echo "ok!!!!!!";
+                    $_SESSION["id"]=$select1;
+                    header('Location:'.'approveEdit.php');
+//
+
+
+                }
+                ?>
             </article>
             <form class="savingChange" autocomplete="off">
                 <p><label>
@@ -92,7 +116,9 @@
     </footer>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="includes/dist/datepicker.js"></script>
-    <script src="includes/appointmentScripts.js"></script>
+<!--    <script src="includes/appointmentScripts.js"></script>-->
     <script src="includes/scripts.js"></script>
+    <script src="includes/editAppointmentScript.js"></script>
+
 </body>
 </html>

@@ -1,5 +1,6 @@
 <?php
-include 'includes/server/db.php';
+//require_once 'includes/server/db.php';
+include 'json.php';
 
 //include "session1.php";
 
@@ -46,56 +47,40 @@ $query = "SELECT * FROM tbl_211";
         </nav>
         <main id="deleteAppMain">
             <h1>מחיקת תור</h1>
-            <section class="savingChange">
-                <h3>פרטי התור שיימחק</h3>
-                <p>
-                    <h4>שם נותן השירות:</h4>
-                    <b>1</b>
-                </p>
-                <p>
-                    <h4>תאריך:</h4>
-                    <b>2</b>
-                </p>
-                <p>
-                    <h4>שעה:</h4>
-                    <b>3</b>
-                </p>
-                <p>
-                    <h4>מיקום:</h4>
-                    <b>4</b>
-                </p>
-                <a href="deleteOrEdit.html">לא! לא למחוק!</a>
-                <a href="#" class="saveEditChanges">מאשר. שיימחק.</a>
-            </section>
+
             <article class="selectAppointment">
 
 
 
                 <h3>בחר את התור שברצונך למחוק:</h3>
-                <form action="" id="delAppoint" method="post">
-                <select name="select1" id="select1">
+                <form action="" id="delAppoint" method="POST">
+                <select name="selectToDelete" id="selectToDelete">
                     <option></option>
                     <option value="tup">טיפת חלב | 07/06/18</option>
                     <option>פגישה עם מנהלת "גן טובה" |  06/06/18</option>
-                    <?php
-                    while($row=mysqli_fetch_row($result)){
-                        echo "<option>".
-                        $row["1"]."|". $row["2"]. "</option>";
-                    }
-
-                    ?>
+<!--                    --><?php
+//                    while($row=mysqli_fetch_row($result)){
+//                        echo "<option>".
+//                        $row["1"]."|". $row["2"]. "</option>";
+//
+//                    }
+//
+//                    ?>
                 </select>
 
 <!--                <a href="#" class="chooseAppointmentToEdit">בחר</a>-->
-                <input type="submit" class="chooseAppointmentToEdit" action="" name="del"/>
+                <input type="submit" class="chooseAppointmentToEdit" action="#" id="submit1"  name="delButton"/>
                 </form  >
                 <?php
-                if (!empty ($_POST["select1"]))
+                if (!empty ($_POST["selectToDelete"]))
                 {
-
-                    $select1=$_POST["select1"];
+                    session_start();
+                    $select1=$_POST["selectToDelete"];
                     echo  $select1;
                     echo "ok!!!!!!";
+                    $_SESSION["id"]=$select1;
+                    header('Location:'.'approveDelete.php');
+//
 
 
                 }
