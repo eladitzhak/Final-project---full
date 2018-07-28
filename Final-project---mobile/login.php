@@ -17,17 +17,17 @@ $row = mysqli_fetch_array($result);
 if(is_array($row)) {
     echo ‘success’;
 } else {
-$message = "Invalid Username or Password!';
+$message = "Invalid Username or Password!";
 echo ‘failure’;
 }
 }
 ?>
 
-
+<!--
 <!DOCTYPE html>
 <html>
     <head>
-        
+
         <title>LOGIN</title>
 </head>
 <body>
@@ -50,10 +50,10 @@ echo ‘failure’;
 //                <label class="showpass">הצג סיסמא<input type="checkbox" name="interests[]" onclick="showpass()"></label>
 //            </label></p>
 //            <label><input type="submit" value="Submit" id="submitBox" onclick="valid()"></label>
-//            <div><?php if(isset($message)){echo $message;}?><!--</div>-->
+//            <div><?php /*if(isset($message)){echo $message;}*/?><!--</div>-->
 <!--        </form>-->
 <!--    </div>-->
 </div>
 <script src="includes/scripts.js"></script>
 </body>
-</html>
+</html>-->

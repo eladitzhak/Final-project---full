@@ -28,7 +28,7 @@
             <a href="#" class="userProfile">
                 <section class="userPic"></section>
             </a>
-            <a href="#" class="menuIcon" id="menuIcon"></a>
+            <a href="#" class="menuIcon"></a>
             <a class="logo" href="index.html"></a>
         </div>
     </header>
@@ -37,7 +37,7 @@
             <li>
                 <h4>שלום יולי</h4>
                 <a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                <a href="#">התנתקות</a>
+                <a href="../Final-project---desktop/index.php">התנתקות</a>
             </li>
             <li><a href="#">ניהול תורים</a></li>
             <li><a href="#">בתי עסק</a></li>

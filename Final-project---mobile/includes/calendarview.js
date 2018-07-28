@@ -837,6 +837,24 @@ Date.prototype.setFullYear = function(y) {
     this.setDate(28);
   this.__msh_oldSetFullYear(y);
 }
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Calendar setup
+function setupCalendars() {
+    // Embedded Calendar
+    Calendar.setup(
+        {
+            dateField: 'embeddedDateField',
+            parentElement: 'embeddedCalendar'
+        }
+    )
 
-var x = document.getElementsByClassName("fc-toolbar")[0];
-x.setAttribute("style","height:40px");
+    // Popup Calendar
+    Calendar.setup(
+        {
+            dateField: 'popupDateField',
+            triggerElement: 'popupDateField'
+        }
+    )
+}
+
+Event.observe(window, 'load', function() { setupCalendars() })

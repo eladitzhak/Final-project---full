@@ -3,20 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e92f8cb5-3758-4427-b5e1-324fb2570394" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Final-project---mobile/New_Appintment_Approval.html" afterPath="$PROJECT_DIR$/Final-project---mobile/New_Appintment_Approval.html" />
+      <change beforePath="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Services.html" afterPath="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Services.html" />
+      <change beforePath="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Shops.html" afterPath="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Shops.html" />
       <change beforePath="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.html" afterPath="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.html" />
       <change beforePath="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.php" afterPath="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.php" />
       <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/calendarview.js" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/calendarview.js" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/css/bootstrap.css" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/css/fullcalendar.css" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/css/fullcalendar.css" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/getShopDetails.js" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/getShopDetails.js" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/js/fullcalendar.min.js" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/js/jquery.js" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/js/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/js/moment.min.js" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/js/moment.min.js" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/scripts.js" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/scripts.js" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/scriptsTime.js" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/scriptsTime.js" />
-      <change beforePath="$PROJECT_DIR$/Final-project---mobile/includes/style.css" afterPath="$PROJECT_DIR$/Final-project---mobile/includes/style.css" />
+      <change beforePath="$PROJECT_DIR$/Final-project---mobile/index.html" afterPath="$PROJECT_DIR$/Final-project---mobile/index.html" />
+      <change beforePath="$PROJECT_DIR$/Final-project---mobile/login.php" afterPath="$PROJECT_DIR$/Final-project---mobile/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,27 +25,7 @@
         <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="New_Appointment_Time.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="New_Appintment_Approval.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appintment_Approval.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -60,38 +34,58 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Final-project---mobile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/scripts.js">
+      <file leaf-file-name="New_Appintment_Approval.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appintment_Approval.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scriptsTime.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/scriptsTime.js">
+      <file leaf-file-name="New_Appointment_Services.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="391">
+              <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/style.css">
+      <file leaf-file-name="New_Appointment_Time.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="335">
+              <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appoitnments_from_db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final-project---mobile/appoitnments_from_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-368">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="New_Appointment_Shops.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Shops.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -146,8 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Final-project---mobile/index.html" />
-        <option value="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Services.html" />
         <option value="$PROJECT_DIR$/Final-project---desktop/appointment.html" />
         <option value="$PROJECT_DIR$/Final-project---desktop/includes/scripts.js" />
         <option value="$PROJECT_DIR$/Final-project---desktop/index.html" />
@@ -160,14 +152,11 @@
         <option value="$PROJECT_DIR$/Final-project---desktop/services.html" />
         <option value="$PROJECT_DIR$/Final-project---mobile/data/package.json" />
         <option value="$PROJECT_DIR$/Final-project---mobile/data/barbershops.json" />
-        <option value="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Shops.html" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/shopDetails.js" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/getShops.js" />
-        <option value="$PROJECT_DIR$/Final-project---mobile/New_Appintment_Approval.html" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/css/fullcalendar.css" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/Final-project---mobile/includes/calendarview.js" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/js/moment.min.js" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/js/jquery.js" />
@@ -179,8 +168,14 @@
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/style.css" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/scripts.js" />
         <option value="$PROJECT_DIR$/Final-project---mobile/includes/scriptsTime.js" />
-        <option value="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.html" />
+        <option value="$PROJECT_DIR$/Final-project---mobile/login.php" />
+        <option value="$PROJECT_DIR$/Final-project---mobile/includes/calendarview.js" />
+        <option value="$PROJECT_DIR$/Final-project---mobile/index.html" />
         <option value="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.php" />
+        <option value="$PROJECT_DIR$/Final-project---mobile/New_Appintment_Approval.html" />
+        <option value="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Services.html" />
+        <option value="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.html" />
+        <option value="$PROJECT_DIR$/Final-project---mobile/New_Appointment_Shops.html" />
       </list>
     </option>
   </component>
@@ -225,35 +220,19 @@
             <path>
               <item name="Final-project---full" type="b2602c69:ProjectViewProjectNode" />
               <item name="Final-project---full" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Final-project---mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Final-project---desktop" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Final-project---full" type="b2602c69:ProjectViewProjectNode" />
               <item name="Final-project---full" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Final-project---mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-project---full" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Final-project---full" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Final-project---full" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="sockets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,16 +323,17 @@
       <workItem from="1532703794445" duration="1786000" />
       <workItem from="1532705609955" duration="1795000" />
       <workItem from="1532707429558" duration="1300000" />
+      <workItem from="1532801971082" duration="1144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73900000" />
+    <option name="totallyTimeSpent" value="75044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22913617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22913617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -385,20 +365,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4420">
-          <caret line="260" column="6" lean-forward="false" selection-start-line="260" selection-start-column="6" selection-end-line="260" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Final-project---desktop/deleteOrEdit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -470,20 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final-project---mobile/index_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Shops.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/prototype.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -541,13 +493,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/Final-project---mobile/appoitnments_from_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Final-project---mobile/.idea/Final-project---mobile.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,15 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10914">
           <caret line="642" column="21" lean-forward="true" selection-start-line="642" selection-start-column="21" selection-end-line="642" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/calendarview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="841" column="38" lean-forward="false" selection-start-line="841" selection-start-column="38" selection-end-line="841" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,14 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final-project---mobile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -705,7 +631,7 @@
     <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -718,18 +644,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Final-project---mobile/index_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1532692245530" expanded="true" signature="201:339" ph="SELECT * FRO... tbl_users_211" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final-project---mobile/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <marker date="1532802424149" expanded="true" signature="124:241" ph="SELECT * FRO... tbl_users_211" />
+            <marker date="1532802424149" expanded="true" signature="471:536" ph="..." />
+            <marker date="1532802424149" expanded="true" signature="482:520" ph="..." />
+            <marker date="1532802424149" expanded="true" signature="527:536" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final-project---mobile/includes/calendarview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="840" column="17" lean-forward="false" selection-start-line="840" selection-start-column="17" selection-end-line="840" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final-project---mobile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final-project---mobile/appoitnments_from_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appintment_Approval.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Shops.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="335">
+          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -737,7 +726,7 @@
     <entry file="file://$PROJECT_DIR$/Final-project---mobile/New_Appointment_Time.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
           <folding />
         </state>
       </provider>
