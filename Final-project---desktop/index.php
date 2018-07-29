@@ -1,15 +1,7 @@
 <?php
-////session_start();
-////echo 'name is:' .$_SESSION["name"];
-//
-//
-//
-//
-//?>
-<!---->
 
+//?>
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>ReserveIT - מערכת לסיוע בניהול וזימון תורים</title>
@@ -54,14 +46,12 @@
         </ul>
     </nav>
     <main>
-
         <article>
             <section>חשבונות  פעילים:</section>
             <section class="floatingActiveUser">דן נודלמן</section>
             <section class="floatingActiveUser"><a href="register.html">הוספת חשבון +</a></section>
         </article>
         <h1 id="calendarset">יומן</h1>
-
         <!--++++++++++++++++++++++CALENDAR implementation++++++++++++++++++++++++++++-->
         <div id="allcal">
             <div class="row">
@@ -73,18 +63,13 @@
             <div class="modal fade" id="ModalAdd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
-<!--                        <form class="form-horizontal" method="POST" action="addEvent.php">-->
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 <button type="submit" class="btn btn-primary">Save changes</button>
                             </div>
-                        </form>
                     </div>
                 </div>
             </div>
-
-
-
             <!-- Modal -->
             <div class="modal fade" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
@@ -132,18 +117,17 @@
         <section><a href="#">תנאי שימוש</a><a>|</a><a href="#">מדיניות הפרטיות</a></section>
     </div>
 </footer>
+<!--Custom scripts-->
 <script src="includes/scripts.js"></script>
 </body>
+<!--  Core JavaScript Jquery -->
 <script src="includes/js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
 <script src="includes/js/bootstrap.min.js"></script>
 <!-- FullCalendar -->
 <script src='includes/js/moment.min.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
 <script src='includes/js/fullcalendar.min.js'></script>
-<!-- JS -->
-<!-- Bootstrap Core JavaScript -->
-<!--<script src="includes/js/bootstrap.min.js"></script>-->
+<!-- Calendar Core JavaScript -->
 <script src="includes/calendarScript.js"></script>
 </html>
