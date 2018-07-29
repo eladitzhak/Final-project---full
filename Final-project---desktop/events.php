@@ -16,11 +16,13 @@ try {
 } catch(Exception $e) {
     exit('Unable to connect to database.');
 }
+$bdd->exec("set names utf8");
 // Execute the query
 
 $query = "SELECT * FROM tbl_211 ORDER BY id";
 $sth = $bdd->prepare($query);
 $sth->execute();
+
 //echo 'delected all to show';
 // Returning array
 $events = array();
