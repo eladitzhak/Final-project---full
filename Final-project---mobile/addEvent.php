@@ -13,6 +13,7 @@ try {
 } catch (Exception $e) {
     exit('Unable to connect to database.');
 }
+$bdd->exec("set names utf8");
 if (isset($_POST['title']) && isset($_POST['start']) && isset($_POST['end']) && isset($_POST['color'])) {
 
     $title = $_POST['title'];
