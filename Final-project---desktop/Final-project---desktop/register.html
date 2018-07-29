@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>הרשמה</title>
+    <link rel="stylesheet" type="text/css" href="includes/style.css" />
+</head>
+<body id="registration">
+    <a class="logo" href="index.php"></a>
+    <div id="box">
+        <h1>הצטרפות ל-ReserveIT</h1>
+        <section class="boxContainer">
+            <form autocomplete="on">
+                <p class="mustFill">* שדות חובה</p>
+                <p><label>
+                    <h4><b class="mustFill">שם מלא </b>*</h4>
+                    <input type="text" required name="fullName" value="" autofocus="autofocus" tabindex="1" id="full_name">
+                </label></p>
+                <p><label>
+                    <h4><b class="mustFill">סיסמא </b>*</h4>
+                    <input type="password" required name="pass" tabindex="2" id="userpassword"
+                           title="password should include 8 characters (digits and letters)" formmethod="post"
+                           maxlength="8" minlength="8">
+                </label></p>
+                <p><label>
+                    <label class="showpass">הצג סיסמא<input type="checkbox" name="interests[]" onclick="showpass()"></label>
+                </label></p>
+                <p><label>
+                    <h4><b class="mustFill">כתובת מייל </b>*</h4>
+                    <input type="email" required name="mail" tabindex="3">
+                </label></p>
+                <p><label>
+                    <h4>טלפון</h4>
+                    <input type="tel" name="phone" tabindex="5">
+                </label></p>
+                <p><label>
+                <p><label>
+                    <h4>כתובת</h4>
+                    <input type="text" name="address" tabindex="8">
+                </label></p>
+                <p><label>
+                    <h4>מין</h4>
+                    <label class="specialLabel">זכר<input type="radio" name="gender" value="male" checked></label>
+                    <label class="specialLabel">נקבה<input type="radio" name="gender" value="female"></label>
+                </label></p>
+                <p>* אישור ההרשמה כולל את אישור תנאי השירות והפרטיות</p>
+                <label><a href="index.php"><input type="button" value="הירשם" id="submitBox"></a></label>
+            </form>
+        </section>
+    </div>
+    <script src="includes/scripts.js"></script>
+</body>
+</html>

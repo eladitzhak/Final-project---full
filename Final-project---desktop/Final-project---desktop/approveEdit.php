@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 $var=$_SESSION["id"];
 //echo $var;
 $id=$var;
@@ -16,7 +17,9 @@ $id=$var;
     <link href="https://fonts.googleapis.com/css?family=Arimo|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="includes/dist/datepicker.css">
-
+<!--    <script>-->
+<!--        alert("--><?php //echo $_SESSION['id']; ?><!--//");-->
+<!--//    </script>-->
     <script type="text/javascript">
         var idr = '<?php echo $id; ?>';
 
@@ -44,31 +47,34 @@ $id=$var;
         </ul>
     </nav>
     <main id="deleteAppMain">
-        <h1>מחיקת תור</h1>
+        <h1>עריכת תור</h1>
         <section class="savingChange">
-            <form action="delete_event.php" id="delAppoint" target="status-iframe" method="POST">
-            <h3>פרטי התור שיימחק</h3>
-            <p>
-            <h4>שם האירוע:</h4>
-            <b id="Eventname"></b>
-            </p>
-            <p>
-            <h4>תאריך:</h4>
-            <b id="eventDate"></b>
-            <p>
-            <h4>שעה:</h4>
-            <b id="eventTime"></b>
-            </p>
-            <p>
-            <h4>מזהה:</h4>
-            <input type="text" id="eventID" name="eventid">
-            </p>
-                <input type="submit" class="chooseAppointmentToEdit" action="" id="submit"  name="delButton"  value="מאשר.שיימחק."/>
+            <form action="update_event.php" id="delAppoint" method="POST" target="hidden-form"">
+                <h3>אנא ערכו תור ולחצו על שלח</h3>
+                <p>
+                <h4>שם האירוע:</h4>
+                <input type=text name="nameEvent" id="Eventname"></input>
+                </p>
+                <p>
+                <h4>תאריך:</h4>
+                <label>(YYYY-MM-DD) </label>
+                <input type="text" id="eventDate" name="eventDate"></input>
+                <h4>סיום:</h4>
+                <input type="text" id="eventDateEnd" name="eventDateEnd"></input>
+                <p>
+                <h4>שעה:</h4>
+                <input  type="time" id="eventTime" name="eventStartTime"></b>
+                <h4>סיום:</h4>
+                <input  type="time" id="eventEndTime" name="eventEndTime"></b>
+                </p>
+                <p>
+                <h4>מזהה:</h4>
+                <input type="text" id="eventID" name="eventid">
+                </p>
+                <input type="submit" class="chooseAppointmentToEdit" action="" id="submit"  name="delButton" value="שלח עדכון"/>
             </form>
 
-            <a href="deleteOrEdit.html" id="notdelete">לא! לא למחוק!</a>
-
-
+            <a href="deleteOrEdit.html">ביטול</a>
             <?php
             if (!empty ($_POST["eventid"]))
             {
@@ -84,18 +90,32 @@ $id=$var;
             }
             ?>
 
-<!--                        <a href="#" class="saveEditChanges">מאשר. שיימחק.</a>-->
+            <!--                        <a href="#" class="saveEditChanges">מאשר. שיימחק.</a>-->
 
-<!--            <input type="submit" class="saveEditChanges" action="delete_event.php" id="submitDel" value="מאשר. שיימחק."  name="delButton"/>-->
-<!--            <button type="button" class="saveEditChanges" action="delete_event.php" id="submitDel" value="מאשר. שיימחק."  name="delButton"></button>-->
-<!--            <button id="submit" type="button">OK</button>-->
+            <!--            <input type="submit" class="saveEditChanges" action="delete_event.php" id="submitDel" value="מאשר. שיימחק."  name="delButton"/>-->
+            <!--            <button type="button" class="saveEditChanges" action="delete_event.php" id="submitDel" value="מאשר. שיימחק."  name="delButton"></button>-->
+            <!--            <button id="submit" type="button">OK</button>-->
 
 
         </section>
+        <article class="selectAppointment">
 
-        <iframe style="" name="status-iframe" id="IframeDelete"></iframe>
+
+
+
+
+
+
+
+
+
+        </article>
+        <article class="changedSuccessfully">
+            <h3>מחיקת התור בוצעה בהצלחה</h3>
+            <a href="index.php">חזרה לתפריט הראשי</a>
+        </article>
+        <iframe style="" name="hidden-form" id="IframeEdit"></iframe>
     </main>
-
 </div>
 <footer>
     <div class="wrapper">
@@ -105,7 +125,7 @@ $id=$var;
 </footer>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="includes/dist/datepicker.js"></script>
-<script src="includes/approveScript.js"></script>
+<script src="includes/editScript.js"></script>
 <script src="includes/defaultScripts.js"></script>
 
 </body>

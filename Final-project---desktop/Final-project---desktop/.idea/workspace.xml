@@ -11,36 +11,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="json.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json.php">
+      <file leaf-file-name="approveEdit.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/approveEdit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="570" column="23" lean-forward="false" selection-start-line="570" selection-start-column="23" selection-end-line="570" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <marker date="1532859583082" expanded="true" signature="52:85" ph="SELECT * FRO... tbl_211" />
+                <marker date="1532824376606" expanded="true" signature="86:119" ph="SELECT * FRO... tbl_211" />
+                <marker date="1532824376606" expanded="true" signature="492:525" ph="SELECT * FRO... tbl_211" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getEvents.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getEvents.php">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <marker date="1532778656867" expanded="true" signature="140:175" ph="SELECT * FRO... tbl_users_211" />
-                <marker date="1532778656867" expanded="true" signature="140:178" ph="SELECT * FRO... tbl_users_211" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/server/db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="206">
+              <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -49,29 +57,64 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="203">
+              <caret line="117" column="10" lean-forward="false" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/results.json">
+      <file leaf-file-name="deleteOrEdit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deleteOrEdit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="50" column="43" lean-forward="false" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editAppointment.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editScript.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/editScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1782">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appointmentsSelect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appointmentsSelect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding>
+                <marker date="1532685854290" expanded="true" signature="86:119" ph="SELECT * FRO... tbl_211" />
+                <marker date="1532685854290" expanded="true" signature="462:495" ph="SELECT * FRO... tbl_211" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editAppointmentScript.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/editAppointmentScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editAppointment.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editAppointment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1971">
-              <caret line="73" column="112" lean-forward="true" selection-start-line="73" selection-start-column="90" selection-end-line="73" selection-end-column="112" />
-              <folding />
+            <state relative-caret-position="149">
+              <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+              <folding>
+                <marker date="1532818212101" expanded="true" signature="129:150" ph="SELECT * FRO... tbl_211" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +130,19 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>#notifications</find>
+      <find>create new</find>
+      <find>json.php</find>
+      <find>notifications</find>
+      <find>submitde</find>
+      <find>submitDel</find>
+      <find>menuic</find>
+      <find>#submitDelEdit</find>
+      <find>//&quot;</find>
+      <find>#if</find>
+      <find>changeToEditPage</find>
+      <find>submit</find>
+      <find>chooseAppointmentToEdit</find>
       <find>notdele</find>
       <find>iframe</find>
       <find>delete_event</find>
@@ -101,22 +157,9 @@
       <find>events.php</find>
       <find>index.html</find>
       <find>delete</find>
+      <find>form</find>
       <find>submitDelEdit</find>
       <find>set</find>
-      <find>php</find>
-      <find>appro</find>
-      <find>session</find>
-      <find>approveEdit.php</find>
-      <find>approveEdit</find>
-      <find>form</find>
-      <find>approve</find>
-      <find>a</find>
-      <find>location</find>
-      <find>set name</find>
-      <find>chars</find>
-      <find>exec(&quot;set names utf8&quot;)</find>
-      <find>אירוע</find>
-      <find>bdd</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -125,8 +168,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/includes/css/fullcalendar.css" />
         <option value="$PROJECT_DIR$/savingChange.php" />
+        <option value="$PROJECT_DIR$/appointmentsSelect.php" />
         <option value="$PROJECT_DIR$/getEvents.php" />
         <option value="$PROJECT_DIR$/includes/approveScript.js" />
+        <option value="$PROJECT_DIR$/json.php" />
         <option value="$PROJECT_DIR$/includes/editAppointmentScript.js" />
         <option value="$PROJECT_DIR$/includes/calendarScript.js" />
         <option value="$PROJECT_DIR$/includes/scripts.js" />
@@ -135,21 +180,16 @@
         <option value="$PROJECT_DIR$/includes/editScript.js" />
         <option value="$PROJECT_DIR$/index_login.php" />
         <option value="$PROJECT_DIR$/update_event.php" />
+        <option value="$PROJECT_DIR$/deleteAppointment.php" />
+        <option value="$PROJECT_DIR$/includes/appointmentScripts.js" />
+        <option value="$PROJECT_DIR$/approveDelete.php" />
         <option value="$PROJECT_DIR$/delete_event.php" />
         <option value="$PROJECT_DIR$/includes/style.css" />
+        <option value="$PROJECT_DIR$/editAppointment.php" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/approveEdit.php" />
         <option value="$PROJECT_DIR$/events.php" />
-        <option value="$PROJECT_DIR$/appointmentsSelect.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/approveDelete.php" />
-        <option value="$PROJECT_DIR$/includes/appointmentScripts.js" />
-        <option value="$PROJECT_DIR$/deleteAppointment.php" />
-        <option value="$PROJECT_DIR$/editAppointment.php" />
-        <option value="$PROJECT_DIR$/results.json" />
-        <option value="$PROJECT_DIR$/includes/server/db.php" />
-        <option value="$PROJECT_DIR$/includes/results.json" />
-        <option value="$PROJECT_DIR$/json.php" />
       </list>
     </option>
   </component>
@@ -200,8 +240,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,13 +276,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532545704055</updated>
       <workItem from="1532545705968" duration="89387000" />
-      <workItem from="1532808259467" duration="23629000" />
-      <workItem from="1532855937916" duration="4089000" />
+      <workItem from="1532808259467" duration="12731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117105000" />
+    <option name="totallyTimeSpent" value="102118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -257,7 +296,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -294,22 +333,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/appointmentScripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editAppointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/approveEdit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3105">
@@ -365,10 +388,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
           <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-          <folding>
-            <marker date="1532815282471" expanded="true" signature="713:782" ph="UPDATE tbl_211... " />
-            <marker date="1532815282471" expanded="true" signature="1131:1162" ph="select * fro... tbl_211" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -420,10 +440,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/editAppointment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/server/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/server/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -431,6 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -439,6 +477,17 @@
         <state relative-caret-position="1416">
           <caret line="1" column="30154" lean-forward="false" selection-start-line="1" selection-start-column="30154" selection-end-line="1" selection-end-column="30160" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <marker date="1532778656867" expanded="true" signature="140:175" ph="SELECT * FRO... tbl_users_211" />
+            <marker date="1532778656867" expanded="true" signature="140:178" ph="SELECT * FRO... tbl_users_211" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,6 +504,24 @@
         <state relative-caret-position="27">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/results.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+          <folding>
+            <marker date="1532782305412" expanded="true" signature="98:131" ph="SELECT * FRO... tbl_211" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,6 +551,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deleteAppointment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="70" column="62" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/appointmentScripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approveDelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update_event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete_event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding>
+            <marker date="1532817380101" expanded="true" signature="116:152" ph="..." />
+            <marker date="1532817380101" expanded="true" signature="395:435" ph="DELETE from tbl_211... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appointmentsSelect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <marker date="1532685854290" expanded="true" signature="86:119" ph="SELECT * FRO... tbl_211" />
+            <marker date="1532685854290" expanded="true" signature="462:495" ph="SELECT * FRO... tbl_211" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -492,9 +613,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services.html" />
-    <entry file="file://$PROJECT_DIR$/savingChange.php" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savingChange.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="92" column="31" lean-forward="true" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -511,7 +653,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteAppointment.html" />
+    <entry file="file://$PROJECT_DIR$/deleteAppointment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/editScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
@@ -520,118 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/editAppointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/editAppointmentScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appointmentsSelect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <marker date="1532845180942" expanded="true" signature="85:118" ph="SELECT * FRO... tbl_211" />
-            <marker date="1532845180942" expanded="true" signature="461:494" ph="SELECT * FRO... tbl_211" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/approveDelete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/appointmentScripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editAppointment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/approveEdit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deleteAppointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1532854819972" expanded="true" signature="85:106" ph="SELECT * FRO... tbl_211" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delete_event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-          <folding>
-            <marker date="1532817380101" expanded="true" signature="116:152" ph="..." />
-            <marker date="1532817380101" expanded="true" signature="395:435" ph="DELETE from tbl_211... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update_event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding>
-            <marker date="1532815282471" expanded="true" signature="713:782" ph="UPDATE tbl_211... " />
-            <marker date="1532815282471" expanded="true" signature="1131:1162" ph="select * fro... tbl_211" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="226">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <marker date="1532824376606" expanded="true" signature="86:119" ph="SELECT * FRO... tbl_211" />
             <marker date="1532824376606" expanded="true" signature="492:525" ph="SELECT * FRO... tbl_211" />
@@ -639,63 +680,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev_211/Final-project---mobile/update_events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/server/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="203">
+          <caret line="117" column="10" lean-forward="false" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getEvents.php">
+    <entry file="file://$PROJECT_DIR$/includes/editAppointmentScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1532778656867" expanded="true" signature="140:175" ph="SELECT * FRO... tbl_users_211" />
-            <marker date="1532778656867" expanded="true" signature="140:178" ph="SELECT * FRO... tbl_users_211" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/results.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1532859583082" expanded="true" signature="52:85" ph="SELECT * FRO... tbl_211" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/editAppointment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1971">
-          <caret line="73" column="112" lean-forward="true" selection-start-line="73" selection-start-column="90" selection-end-line="73" selection-end-column="112" />
+        <state relative-caret-position="149">
+          <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+          <folding>
+            <marker date="1532818212101" expanded="true" signature="129:150" ph="SELECT * FRO... tbl_211" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approveEdit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
         </state>
       </provider>

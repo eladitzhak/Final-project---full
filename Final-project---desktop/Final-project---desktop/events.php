@@ -1,5 +1,7 @@
 <?php
-$json = array(); // List of events
+
+// List of events
+$json = array();
 
 // Query that retrieves events
 $requete = "SELECT * FROM tbl_211 ORDER BY id";
@@ -14,11 +16,13 @@ try {
 } catch(Exception $e) {
     exit('Unable to connect to database.');
 }
+$bdd->exec("set names utf8");
 // Execute the query
 
 $query = "SELECT * FROM tbl_211 ORDER BY id";
 $sth = $bdd->prepare($query);
 $sth->execute();
+
 //echo 'delected all to show';
 // Returning array
 $events = array();
@@ -42,9 +46,7 @@ while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
 
 // sending the encoded result to success page
 // Output json for our calendar
-$json=json_encode($events);
-
-return $json;
+echo json_encode($events);
 exit();
 //echo json_encode($resultat->fetchAll(PDO::FETCH_ASSOC));
 

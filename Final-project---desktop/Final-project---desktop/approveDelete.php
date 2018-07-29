@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 $var=$_SESSION["id"];
 //echo $var;
 $id=$var;
