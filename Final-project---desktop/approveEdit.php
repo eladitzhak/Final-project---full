@@ -17,9 +17,9 @@ $id=$var;
     <link href="https://fonts.googleapis.com/css?family=Arimo|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="includes/dist/datepicker.css">
-    <script>
-        alert("<?php echo $_SESSION['id']; ?>");
-    </script>
+<!--    <script>-->
+<!--        alert("--><?php //echo $_SESSION['id']; ?><!--//");-->
+<!--//    </script>-->
     <script type="text/javascript">
         var idr = '<?php echo $id; ?>';
 
@@ -57,6 +57,7 @@ $id=$var;
                 </p>
                 <p>
                 <h4>תאריך:</h4>
+                <label>(YYYY-MM-DD) </label>
                 <input type="text" id="eventDate" name="eventDate"></input>
                 <h4>סיום:</h4>
                 <input type="text" id="eventDateEnd" name="eventDateEnd"></input>
@@ -125,7 +126,7 @@ $id=$var;
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="includes/dist/datepicker.js"></script>
 <script src="includes/editScript.js"></script>
-<script src="includes/scripts.js"></script>
+<script src="includes/defaultScripts.js"></script>
 
 </body>
 </html>

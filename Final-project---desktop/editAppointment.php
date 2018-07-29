@@ -8,11 +8,11 @@ include 'json.php';
 
 
 //session_start();
-$query = "SELECT * FROM tbl_211";
-    $result = mysqli_query($connection, $query);
-    if (!$result){
-        die("db Query failed.");
-    }
+//$query = "SELECT * FROM tbl_211";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result){
+//        die("db Query failed.");
+//    }
 ?>
 
 
@@ -31,7 +31,7 @@ $query = "SELECT * FROM tbl_211";
 <body>
     <header>
         <div class="wrapper">
-            <a class="logo" href="index.html"></a>
+            <a class="logo" href="index.php"></a>
             <a href="#" class="menuIcon"></a>
             <a href="#" class="userProfile"><section class="userPic"></section><b>דן נודלמן</b></a>
             <a href="#" class="settingsIcon" title="הגדרות"></a>
@@ -41,7 +41,7 @@ $query = "SELECT * FROM tbl_211";
     <div class="wrapper">
         <nav class="indexNav">
             <ul>
-                <li><a href="index.html">יומן</a></li>
+                <li><a href="index.php">יומן</a></li>
                 <li><a href="#">תור חדש</a></li>
                 <li class="selected"><a href="deleteOrEdit.html">עדכון תור קיים</a></li>
                 <li><a href="#">כל בתי העסק</a></li>
@@ -59,7 +59,7 @@ $query = "SELECT * FROM tbl_211";
                     <option>פגישה עם מנהלת "גן טובה" |  06/06/18</option>
                 </select>
 <!--                <a href="#" class="chooseAppointmentToEdit">בחר</a>-->
-                    <input type="submit" class="chooseAppointmentToEdit" action="#" id="submitDel"  name="delButton"/>
+                    <input type="submit" class="chooseAppointmentToEdit" action="#" id="submitDelEdit" value="בחר"  name="delButton"/>
                 </form  >
                 <?php
                 if (!empty ($_POST["selectToEdit"]))
@@ -104,7 +104,7 @@ $query = "SELECT * FROM tbl_211";
             </form>
             <article class="changedSuccessfully">
                     <h3>עריכת התור בוצעה בהצלחה</h3>
-                    <a href="index.html">חזרה לתפריט הראשי</a>
+                    <a href="index.php">חזרה לתפריט הראשי</a>
             </article>
         </main>
     </div>
@@ -117,7 +117,7 @@ $query = "SELECT * FROM tbl_211";
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="includes/dist/datepicker.js"></script>
 <!--    <script src="includes/appointmentScripts.js"></script>-->
-    <script src="includes/scripts.js"></script>
+    <script src="includes/defaultScripts.js"></script>
     <script src="includes/editAppointmentScript.js"></script>
 
 </body>

@@ -14,18 +14,18 @@
       <file leaf-file-name="New_Appointment_Time.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/New_Appointment_Time.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="1107">
+              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="New_Appointment_Time.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="New_Appointment_Time.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/New_Appointment_Time.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3124">
-              <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+            <state relative-caret-position="3834">
+              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file leaf-file-name="New_Appointment_Shops.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/New_Appointment_Shops.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="47" />
+            <state relative-caret-position="1161">
+              <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -53,26 +53,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events.php">
+      <file leaf-file-name="addEvent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="648">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <marker date="1531941753558" expanded="true" signature="86:119" ph="SELECT * FRO... tbl_211" />
-                <marker date="1531941753558" expanded="true" signature="462:495" ph="SELECT * FRO... tbl_211" />
+                <marker date="1532544499613" expanded="true" signature="892:980" ph="INSERT INTO tbl_211... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addEvent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addEvent.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1532544499613" expanded="true" signature="892:980" ph="INSERT INTO tbl_211... " />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,16 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
               <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fullcalendar.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/css/fullcalendar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10152">
-              <caret line="376" column="13" lean-forward="false" selection-start-line="376" selection-start-column="13" selection-end-line="376" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -180,9 +179,9 @@
         <option value="$PROJECT_DIR$/includes/style.css" />
         <option value="$PROJECT_DIR$/includes/css/fullcalendar.css" />
         <option value="$PROJECT_DIR$/includes/calendarScript.js" />
-        <option value="$PROJECT_DIR$/addEvent.php" />
         <option value="$PROJECT_DIR$/New_Appointment_Time.html" />
         <option value="$PROJECT_DIR$/New_Appointment_Time.php" />
+        <option value="$PROJECT_DIR$/addEvent.php" />
       </list>
     </option>
   </component>
@@ -217,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,11 +224,15 @@
               <item name="Final-project---mobile" type="b2602c69:ProjectViewProjectNode" />
               <item name="Final-project---mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Final-project---mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-project---mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -273,11 +277,14 @@
       <workItem from="1532461528748" duration="5400000" />
       <workItem from="1532537896753" duration="12394000" />
       <workItem from="1532674473322" duration="21000" />
+      <workItem from="1532773025679" duration="1438000" />
+      <workItem from="1532804922451" duration="1247000" />
+      <workItem from="1532811741941" duration="836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51386000" />
+    <option name="totallyTimeSpent" value="54907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -319,7 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26865">
           <caret line="995" column="42" lean-forward="false" selection-start-line="995" selection-start-column="42" selection-end-line="995" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -352,13 +358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../php-calendar-event-management-using-fullcalendar-javascript-library/php-calendar-event-management-using-fullcalendar-javascript-library/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../php-calendar-event-management-using-fullcalendar-javascript-library/php-calendar-event-management-using-fullcalendar-javascript-library/index.php" />
     <entry file="file://$PROJECT_DIR$/index_login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -409,13 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../php-calendar-event-management-using-fullcalendar-javascript-library/php-calendar-event-management-using-fullcalendar-javascript-library/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../php-calendar-event-management-using-fullcalendar-javascript-library/php-calendar-event-management-using-fullcalendar-javascript-library/index.php" />
     <entry file="file://$PROJECT_DIR$/appoitnments_from_db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -459,13 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../php-calendar-event-management-using-fullcalendar-javascript-library/php-calendar-event-management-using-fullcalendar-javascript-library/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../php-calendar-event-management-using-fullcalendar-javascript-library/php-calendar-event-management-using-fullcalendar-javascript-library/index.php" />
     <entry file="file://$PROJECT_DIR$/appoitnments_from_db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -544,13 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../php-calendar-event-management-using-fullcalendar-javascript-library/php-calendar-event-management-using-fullcalendar-javascript-library/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../php-calendar-event-management-using-fullcalendar-javascript-library/php-calendar-event-management-using-fullcalendar-javascript-library/index.php" />
     <entry file="file://$PROJECT_DIR$/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -558,31 +540,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/css/style.css" />
     <entry file="file://$PROJECT_DIR$/includes/calendarview.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -610,36 +572,21 @@
     <entry file="file://$PROJECT_DIR$/includes/css/fullcalendar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10152">
-          <caret line="376" column="13" lean-forward="false" selection-start-line="376" selection-start-column="13" selection-end-line="376" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <marker date="1532544499613" expanded="true" signature="892:980" ph="INSERT INTO tbl_211... " />
-          </folding>
+          <caret line="376" column="0" lean-forward="false" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <marker date="1531941753558" expanded="true" signature="86:119" ph="SELECT * FRO... tbl_211" />
-            <marker date="1531941753558" expanded="true" signature="462:495" ph="SELECT * FRO... tbl_211" />
-          </folding>
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/New_Appointment_Time.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="1107">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -680,16 +627,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/New_Appointment_Shops.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="47" />
+        <state relative-caret-position="1161">
+          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/New_Appointment_Time.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3124">
-          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        <state relative-caret-position="3834">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1532544499613" expanded="true" signature="892:980" ph="INSERT INTO tbl_211... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding />
         </state>
       </provider>

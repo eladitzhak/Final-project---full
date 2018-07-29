@@ -1,15 +1,5 @@
 /*++++++++++++++++++++++++++++++++++++++ Registration ++++++++++++++++++++++++++++++++++++++*/
 
-function showpass(){
-    var x=document.getElementById("userpassword");
-    if (x.type=="password"){
-        x.type="text";
-    }else{
-        x.type=x.type="password"
-    }
-
-}
-
 /*++++++++++++++++++++++++++++++++++++++ Header menu Icon ++++++++++++++++++++++++++++++++++++++*/
 
 var isHamburgerOpen=1;
@@ -42,19 +32,17 @@ function show_or_hide_notifications() {
     if (notes.style.display != "block")
         notes.style.display = "block";
     else
-        {
-            notes.style.display = "none";
-            document.getElementById("numOfNotifications").style.display = "none";
-        }
+    {
+        notes.style.display = "none";
+        document.getElementById("numOfNotifications").style.display = "none";
+    }
 };
 
-document.getElementById("numOfNotifications").onclick = function () {
-    show_or_hide_notifications();
-};
+
 
 var meme=document.getElementsByClassName("menuIcon")[0];
 
 meme.onclick = function () {
-   hamburger();
+    hamburger();
 };
 

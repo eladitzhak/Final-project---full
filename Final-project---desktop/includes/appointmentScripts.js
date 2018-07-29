@@ -6,20 +6,20 @@ var ChangeSuccess = document.getElementsByClassName("changedSuccessfully")[0];
 var submit=document.getElementById("submit");
 var nameEvent=document.getElementById("nameEvent");
 
-function changeToEditPage() {
-    SelectApp.style.display = "none";
-    SaveChange.style.display = "block";
-}
+// function changeToEditPage() {
+//     SelectApp.style.display = "none";
+//     SaveChange.style.display = "block";
+// }
+//
+// function saveEditionChanges() {
+//     SaveChange.style.display = "none";
+//     ChangeSuccess.style.display = "block";
+// }
 
-function saveEditionChanges() {
-    SaveChange.style.display = "none";
-    ChangeSuccess.style.display = "block";
-}
-
-var CATE = document.getElementsByClassName("chooseAppointmentToEdit")[0];
-CATE.onclick = function() {
-    changeToEditPage();
-};
+// var CATE = document.getElementsByClassName("chooseAppointmentToEdit")[0];
+// CATE.onclick = function() {
+//     changeToEditPage();
+// };
 
 // var SEC = document.getElementsByClassName("saveEditChanges")[0];
 // SEC.onclick =  function() {

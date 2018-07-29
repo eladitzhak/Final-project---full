@@ -64,18 +64,8 @@ $(window).on('load', function () {
     eventID.value=idEvent;
 
     id1 = idEvent;
-    document.getElementById('IframeEdit').onload= function() {
-        var iframeDocument = IframeEdit.contentDocument || IframeEdit.contentWindow.document;
-        var x=document.getElementById('IframeEdit').contentDocument;
-    };
-    var iframeDocument = IframeEdit.contentDocument || IframeEdit.contentWindow.document;
+
 
 });
 
 
-
-function iframe_check()
-{
-    var x=document.getElementById('IframeEdit').contentDocument;
-
-}

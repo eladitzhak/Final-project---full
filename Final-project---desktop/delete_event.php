@@ -20,4 +20,10 @@ $sql = "DELETE from tbl_211 WHERE id=" . $id ."";
 $q = $bdd->prepare($sql);
 $q->execute();
 
+if ($q->rowCount()>0) {
+    echo "Appointment succefully deleted";
+}
+else {
+    echo "cannot delete Appointment please check ID again";
+}
 ?>

@@ -69,7 +69,7 @@ $query = "SELECT * FROM tbl_211";
                 </select>
 
 <!--                <a href="#" class="chooseAppointmentToEdit">בחר</a>-->
-                <input type="submit" class="chooseAppointmentToEdit" action="#" id="submit1"  name="delButton"/>
+                <input type="submit" class="chooseAppointmentToEdit" action="#" id="submit1" value="בחר" name="delButton"/>
                 </form  >
                 <?php
                 if (!empty ($_POST["selectToDelete"]))
@@ -103,6 +103,6 @@ $query = "SELECT * FROM tbl_211";
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="includes/dist/datepicker.js"></script>
     <script src="includes/appointmentScripts.js"></script>
-    <script src="includes/scripts.js"></script>
+    <script src="includes/defaultScripts.js"></script>
 </body>
 </html>

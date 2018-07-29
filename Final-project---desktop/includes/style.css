@@ -554,7 +554,30 @@ footer a:nth-child(2)
 #deleteAppMain .savingChange a:nth-last-child(1) {
     background-color: #dc0000;
 }
-
+#notdelete{
+    background-color: #dc0000;
+    width: 25%;
+    height: 30px;
+    margin-top: 47px;
+    margin-right: 12%;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 5px;
+    color: white;
+}
+#submit1{
+    height: 22px;
+    width: 50px;
+    text-align: center;
+    /* padding-top: 3px; */
+    background-color: white;
+    font-weight: bold;
+    border: black 1px solid;
+    border-radius: 2px;
+    /* position: absolute; */
+    margin-top: 41px;
+    font-size: 16px;
+}
 /*+++++++++++++++++++++++++++++++ DELETE APPOINTMENT - END +++++++++++++++++++++++++++++*/
 
 #submitDel {
@@ -580,6 +603,20 @@ footer a:nth-child(2)
 
 }
 
+#submitDelEdit{
+
+    height: 22px;
+    width: 50px;
+    text-align: center;
+    /*padding-top: 3px;*/
+    background-color: white;
+    font-weight: bold;
+    border: black 1px solid;
+    border-radius: 2px;
+    /*position: absolute;*/
+    margin-top: 41px;
+    font-size: 16px;
+}
 
 /*+++++++++++++++++++++++++++++++++++++++++Approve DELETE page++++++++++++++++++++++++++++*/
 
@@ -620,9 +657,22 @@ footer a:nth-child(2)
     background-color: transparent;
     font-weight: bold;
     border: 0px solid;
-    height: 70px;
+    height: 80px;
     width: 70%;
     display: block;
+}
 
+/*+++++++++++++++++++++++++++++++++++++++++Approve delete page++++++++++++++++++++++++++++*/
 
+#IframeDelete{
+
+    background-color: transparent;
+    font-weight: bold;
+    border: 0px solid;
+    height: 80px;
+    width: 67%;
+    display: block;
+    margin: 58px;
+    position: relative;
+    top: 40px;
 }

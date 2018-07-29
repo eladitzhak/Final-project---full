@@ -64,7 +64,9 @@ if ($count==0){
 $newTitle=$e['title'];
 $newStart=$e['start'];
 $newEnd=$e['end'];
-echo "התור התעדכן בהצלחה! " . "<br>";
+
+//echo "התור התעדכן בהצלחה! " ."<br>";
+echo "Succefully updated event!" ."<br>";
 echo  ("new title: $newTitle  "."| ");
 echo nl2br ("new time: $newStart "."| ");
 echo nl2br ("new end: $newEnd "."| " );
