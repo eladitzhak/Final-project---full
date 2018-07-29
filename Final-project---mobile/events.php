@@ -16,6 +16,8 @@ try {
 } catch(Exception $e) {
     exit('Unable to connect to database.');
 }
+
+$bdd->exec("set names utf8");
 // Execute the query
 
 $query = "SELECT * FROM tbl_211 ORDER BY id";
